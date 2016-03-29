@@ -15,8 +15,24 @@ class BookSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void toString() {
+
+when: "A Book has title, author and isbn"
+
+def book=new Book(title:'Disney Animation The Illusion of Life',
+			
+		  author:'Ollie Johnston',
+
+	  	  isbn:'89659',
+
+		  dateBorrowed:'29-03-2016',
+
+		  returnDate:'31-03-2016',
+
+		  student:'Robert Urry')
+
+then: "the to String method will merge them."
+
+book.toString()=='Disney Animation The Illusion of Life,Ollie Johnston,89659, 29-03-2016,31-03-2016,Robert Urry'
     }
 }
