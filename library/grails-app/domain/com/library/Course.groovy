@@ -2,6 +2,7 @@ package com.library
 
 class Course {
 
+
 	String title
 
 	String code
@@ -12,14 +13,14 @@ class Course {
 
 	String description
 
-
 	String toString(){
 
-	"$title,$code,$department"
+	"$title,$code,$tutor,$department,$description"
 
 }
 
     static constraints = {
+
 
 	title()
 

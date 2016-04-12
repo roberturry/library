@@ -4,7 +4,18 @@ class BootStrap {
 
     def init = { servletContext ->
 
-	def book1 = new Book(title:'Disney Animation The Illusion of Life',
+
+                      def librarian1 = new Librarian(name:'Neil Anderson',
+
+			    	       email:'neilanderson@gmail.com',
+
+			               userName:'b2924830',
+
+			               password:'password12345',
+
+			               telephone:'09478463291').save()
+
+	 def book1 = new Book(title:'Disney Animation The Illusion of Life',
 			
 		 	     author:'Ollie Johnston',
 
@@ -16,8 +27,9 @@ class BootStrap {
 
 		 	      student:'Robert Urry').save()
 
+	def course1 = new Course(
 
-	def course1 = new Course(title:'Web Systems Design',
+				title:'Web Systems Design',
 		
 	   	      		code:'WSD101',
 	
@@ -25,19 +37,7 @@ class BootStrap {
 
 		      		department:'Computing',
 		
-		      		description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia ipsum lorem, non hendrerit felis ornare quis. Suspendisse eros felis, blandit a suscipit tempus, accumsan vel enim. Fusce pharetra tempus felis ut feugiat. Phasellus porttitor, urna sed auctor aliquet').save()
-
-
-	def librarian1 = new Librarian(name:'Neil Anderson',
-
-			    	       email:'neilanderson@gmail.com',
-
-			               userName:'b2924830',
-
-			               password:'password12345',
-
-			               telephone:'09478463291').save()
-
+		      		description:'Lorem ipsum dolor sit amet').save()
 
 	def library1 = new Library(location:'Sheffield',
 
@@ -49,14 +49,16 @@ class BootStrap {
 
 				   librarian:'Neil Anderson').save()
 
-
 	def student1 = new Student(name:'Robert Urry',
 			
 				   email:'robert_urry@live.co.uk',
  
 				   studentId:'b2024136',
 
-				   course:'Interactive Media with Animation').save()
+				   course:course1).save()
+
+
+	
 
     }
     def destroy = {

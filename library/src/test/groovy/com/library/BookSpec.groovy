@@ -25,14 +25,10 @@ def book=new Book(title:'Disney Animation The Illusion of Life',
 
 	  	  isbn:'89659',
 
-		  dateBorrowed:'29-03-2016',
-
-		  returnDate:'31-03-2016',
-
 		  student:'Robert Urry')
 
 then: "the to String method will merge them."
 
-book.toString()=='Disney Animation The Illusion of Life,Ollie Johnston,89659, 29-03-2016,31-03-2016,Robert Urry'
+book.toString()=='Disney Animation The Illusion of Life,Ollie Johnston,89659,Robert Urry'
     }
 }

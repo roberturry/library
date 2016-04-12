@@ -8,12 +8,12 @@ class Student {
 
 	String studentId
 
-	String course
+	Course course
 
 
 	String toString(){
 
-	"$name,$studentId,$course"
+	"$name,$email,$studentId,$course"
 
 }
 
@@ -24,6 +24,8 @@ class Student {
 	email()
 
 	studentId()
+
+	course()
 
 	course()
     }

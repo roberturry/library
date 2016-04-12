@@ -28,7 +28,7 @@ def student=new Student(name:'Robert Urry',
 
 then:"the to String method will merge them."
 
-student.toString()=='Robert urry,robert_urry@live.co.uk,Interactive Media with Animation'
+student.toString()=='Robert Urry,robert_urry@live.co.uk,b2024136,Interactive Media with Animation'
 
     }
 }

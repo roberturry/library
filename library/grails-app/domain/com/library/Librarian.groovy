@@ -15,7 +15,7 @@ class Librarian {
 	
 	String toString(){
 	
-	"$name,$email,$telephone"
+	"$name,$email,$userName,$password,$telephone"
 
 }
 	

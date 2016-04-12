@@ -30,6 +30,6 @@ def library=new Library(location:'Sheffield',
 
 then:"the to String method will merge them."
 
-library.toString()=='Sheffield,8:00am,Example Book, Robert Urry, Neil Anderson'
+library.toString()=='Sheffield,8:00am,Example Book,Robert Urry,Neil Anderson'
     }
 }

@@ -25,12 +25,12 @@ def course=new Course(title:'Web Systems Design',
 		      tutor:'Penny Collier',
 
 		      department:'Computing',
-		
-		      description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia ipsum lorem, non hendrerit felis ornare quis. Suspendisse eros felis, blandit a suscipit tempus, accumsan vel enim. Fusce pharetra tempus felis ut feugiat. Phasellus porttitor, urna sed auctor aliquet')
+
+		      description:'Lorem ipsum dolor sit amet consectetur')
 
 then:"the to String method will merge them."
 
-course.toString()=='Web Systems Design,WSD101,Penny Collier,Computing'
+course.toString()=='Web Systems Design,WSD101,Penny Collier,Computing,Lorem ipsum dolor sit amet consectetur'
        
     }
 }

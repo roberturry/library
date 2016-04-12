@@ -12,10 +12,11 @@ class Library {
 
 	String librarian
 
+static hasMany=[students: Student, books: Book, librarians: Librarian]
 	
 	String toString(){
 
-	"$location,$openingHours,$librarian"
+	"$location,$openingHours,$book,$student,$librarian"
 }
 
     static constraints = {

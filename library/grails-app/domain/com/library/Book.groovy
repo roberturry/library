@@ -17,7 +17,7 @@ class Book {
 
 	String toString(){
 
-	"$title,$author,$isbn"
+	"$title,$author,$isbn,$student"
 
 }
 
