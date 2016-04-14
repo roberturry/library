@@ -1,7 +1,7 @@
 /* FONT STACK */
 body,
 input, select, textarea {
-    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Open Sans","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BASE LAYOUT */
 
 html {
-    background-color: #ddd;
+    background-color: #00bfff;
     background-image: -moz-linear-gradient(center top, #aaa, #ddd);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
     background-image: linear-gradient(top, #aaa, #ddd);
@@ -36,9 +36,9 @@ body {
     background: #ffffff;
     color: #333333;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
-    -moz-box-shadow: 0 0 0.3em #4D8618;
-    -webkit-box-shadow: 0 0 0.3em #4D8618;
-    box-shadow: 0 0 0.3em #4D8618;
+    -moz-box-shadow: 0 0 0.3em #00bfff;
+    -webkit-box-shadow: 0 0 0.3em #00bfff;
+    box-shadow: 0 0 0.3em #00bfff;
 }
 
 #grailsLogo {
@@ -84,7 +84,7 @@ img {
 }
 
 .footer {
-    background: #48802c;
+    background: #00bfff;
     color: #000;
     clear: both;
     font-size: 0.8em;
@@ -94,7 +94,7 @@ img {
 }
 
 .footer a {
-    color: #4D8618;
+    color: #00bfff;
 }
 
 .spinner {
@@ -129,7 +129,7 @@ img {
 }
 
 .nav a {
-    color: #666666;
+    color: #00bfff;
     display: block;
     padding: 0.25em 0.7em;
     text-decoration: none;
@@ -144,7 +144,7 @@ img {
 
 .nav a:focus, .nav a:hover {
     background-color: #999999;
-    color: #ffffff;
+    color: #00bfff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
@@ -174,7 +174,7 @@ img {
 }
 
 .nav li.dropdown.open ul.dropdown-menu {
-    background-color: #4D8618;
+    background-color: #00bfff;
 }
 
 /* CREATE/EDIT FORMS AND SHOW PAGES */
@@ -249,12 +249,12 @@ input[type=checkbox], input[type=radio] {
 }
 
 input:focus, select:focus, textarea:focus {
-    background-color: #ffffff;
+    background-color: #00bfff;
     border: 1px solid #eeeeee;
     outline: 0;
-    -moz-box-shadow: 0 0 0.5em #ffffff;
-    -webkit-box-shadow: 0 0 0.5em #ffffff;
-    box-shadow: 0 0 0.5em #ffffff;
+    -moz-box-shadow: 0 0 0.5em #00bfff;
+    -webkit-box-shadow: 0 0 0.5em #00bfff;
+    box-shadow: 0 0 0.5em #00bfff;
 }
 
 .required-indicator {

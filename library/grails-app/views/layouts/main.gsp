@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <asset:stylesheet src="application.css"/>
-
     <g:layoutHead/>
 </head>
 <body>
@@ -25,9 +24,10 @@
                 </button>
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
-                        <asset:image src="grails-cupsonly-logo-white.svg"/>
+                        <asset:image src="${resource(dir:'image',file:'libraryLogo.png')}"alt="Enrolment System"/></a>
                     </i> Grails
                 </a>
+<g:loginToggle/>
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
                 <ul class="nav navbar-nav navbar-right">

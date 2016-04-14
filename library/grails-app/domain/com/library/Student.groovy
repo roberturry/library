@@ -2,6 +2,10 @@ package com.library
 
 class Student {
 
+	Library library
+	
+	Book book
+
 	String name
 
 	String email
@@ -27,6 +31,5 @@ class Student {
 
 	course()
 
-	course()
     }
 }

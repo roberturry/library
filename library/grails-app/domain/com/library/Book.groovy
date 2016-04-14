@@ -2,6 +2,8 @@ package com.library
 
 class Book {
 
+	Library library
+
 	String title
 
 	String author
@@ -12,7 +14,7 @@ class Book {
 
 	Date returnDate
 
-	String student
+	Student student
 
 
 	String toString(){

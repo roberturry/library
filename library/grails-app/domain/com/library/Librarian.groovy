@@ -2,6 +2,8 @@ package com.library
 
 class Librarian {
 
+	Library library	
+
 	String name
 
 	String email

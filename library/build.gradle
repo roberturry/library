@@ -55,6 +55,7 @@ dependencies {
     console "org.grails:grails-console"
     profile "org.grails.profiles:web:3.1.4"
     runtime "org.grails.plugins:asset-pipeline"
+    runtime "mysql:mysql-connector-java:5.1.36"
     runtime "com.h2database:h2"
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
